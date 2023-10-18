@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <title>Treloo</title>
+    <meta property="og:url" content="./index.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Treloo" />
+    <meta property="og:description" content="Treloo" />
+    <meta property="og:image" content="./img/Treloo.png">
+
+    <link rel="icon" type="image/png" href="./img/Treloo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
+    <link href="./style/main.css" rel="stylesheet" >
+
 </head>
 
 <body>
@@ -25,25 +39,25 @@
     <main>
     <img src="./img/pexels-francesco-ungaro-2835436 1.jpg" alt="">
     <div>
-        <h2>Discover Your Life, Travel Where You Want</h2>
+        <h1>Discover Your Life, Travel Where You Want</h1>
         <p>Would you explore natur paradise in the world, let’s find the best destination in world with us.</p>
     </div>
 </main>
     <div>
         <!--Block-->
         <div>
-            <button><img src="./img/AirplaneModOn.png" alt="">Flight</button>
-            <button><img src="./img/HotelStar.png" alt="">Hotel</button>
+            <button class="destination"><img src="./img/AirplaneModOn.png" alt="">Flight</button>
+            <button class="destination"><img src="./img/HotelStar.png" alt="">Hotel</button>
         </div>
         <div>
-            <p>Living From</p>
+            <p class="destination">Living From</p>
             <label for="city"></label>
                 <input id="city" type="text" list="city">
                 <datalist id="city">
                     <option value="Dubai"></option>
                 </datalist>
             <img src="./img/AirplaneModeOn3.png" alt="">
-            <p>Going to</p>
+            <p class="destination">Going to</p>
             <label for="city2"></label>
                 <input id="city2" type="text" list="city2">
                 <datalist id="city">
@@ -51,28 +65,36 @@
                 </datalist>
         </div>
         <div> 
-            <p>Leave</p>
+            <p class="destination">Leave</p>
             <img src="./img/AirplaneModeOn2.png" alt="">
             <label for="date"></label>
                 <input id="date" type="date">
             <img src="./img/AirplaneModeOn3.png" alt="">
-            <p>Return</p>
+            <p class="destination">Return</p>
             <img src="./img/Planner.png" alt="">
             <label for="date2">
                 <input id="date2" type="date">
             </div>
+            <button >
+                <svg xmlns="http://www.w3.org/2000/svg" width="154" height="154" viewBox="0 0 154 154" fill="none">
+                    <rect width="154" height="154" rx="65" fill="#3E86F5" fill-opacity="0.8"/>
+                    <circle cx="76" cy="74" r="21.5" stroke="white" stroke-width="5"/>
+                    <line x1="89.7678" y1="89.2322" x2="103.768" y2="103.232" stroke="white" stroke-width="5"/>
+                    </svg>
+            </button>
     </div>
     <!--Block1-->
 
     <section>
         <h2>Special Upcoming Offers</h2>
-    <ul>
+      <ul>
         <li><a href="">Team</a></li>
         <li><a href="">Couple</a></li>
         <li><a href="">Family</a></li>
+      </ul>
         <article>
             <img src="./img/unsplash_7uXn7nudorc.jpg" alt="">
-            <p>Relax</p>
+            <p class="red">Relax</p>
             <p>2 Days, 3 Nights</p>
             <h3>Loga Sea</h3>
             <p>700$/Person</p>
@@ -80,7 +102,7 @@
         </article>
         <article>
             <img src="./img/unsplash_HUk2W9fa-Jw.jpg" alt="">
-            <p>Adventure</p>
+            <p class="blue">Adventure</p>
             <p>4 Days, 3 Nights</p>
             <h3>Ansgar Scheffold</h3>
             <p>400$/Person</p>
@@ -88,11 +110,11 @@
         </article>
         <article>
             <img src="./img/unsplash_Yui5vfKHuzs.jpg" alt="">
-            <p>Relax</p>
+            <p class="red">Relax</p>
             <p>7 Days, 6 Nights</p>
             <h3>Lona X</h3>
             <p>340$/Person</p>
-            <button>Book Now</button>
+            <button class="button">Book Now</button>
         </article>
     </section>
 
@@ -106,7 +128,7 @@
     <img src="./img/Group25.png" alt="">
     <img src="./img/Group26.png" alt="">
     <img src="./img/Group27.png" alt="">
-    <button>Contact us</button>
+    <button class="button2">Contact us</button>
 </section>
     <!--Block3-->
 
@@ -121,22 +143,22 @@
     <article>
         <img src="./img/unsplash_DlkF4-dbCOU.jpg" alt="">
         <h3>Kina Mountain</h3>
-        <img src="./img/Location.png" alt=""><p>Cambodia</p>
+        <img src="./img/Location.png" alt=""><p class="location">Cambodia</p>
     </article>
     <article>
         <img src="./img/unsplash_CSpjU6hYo_0.jpg" alt="">
         <h3>Kina Mountain</h3>
-        <img src="./img/Location.png" alt=""><p>Cambodia</p>
+        <img src="./img/Location.png" alt=""><p class="location">Cambodia</p>
     </article>
     <article>
         <img src="./img/unsplash_Ai2TRdvI6gM.jpg" alt="">
         <h3>Kina Mountain</h3>
-        <img src="./img/Location.png" alt=""><p>Cambodia</p>
+        <img src="./img/Location.png" alt=""><p class="location">Cambodia</p>
     </article>
     <article>
         <img src="./img/unsplash_K_TbABnVzHo.jpg" alt="">
         <h3>Kina Mountain</h3>
-        <img src="./img/Location.png" alt=""><p>Cambodia</p>
+        <img src="./img/Location.png" alt=""><p class="location">Cambodia</p>
     </article>
 
 </section>
@@ -145,16 +167,16 @@
     <!--Block4-->
 <section>
     <div>
-<p>Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</p><br>
-    <a heref="">-Vand D</a>
+<p class="comment">Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</p><br>
+    <a href="">-Vand D</a>
     <p>Happy Treloo</p>
     <img src="./img/Ellipse3o.jpg" alt="">
     <p><img src="./img/Star.png" alt="">4.5</p>
     </div>
 
     <div>
-        <p>Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</p><br>
-            <a heref="">Tru Vio</a>
+        <p class="comment">Our trip to Morocco was truly a onece in a lifetime experience and we are so grateful to everyone that made it happen seamlessly. Our travel planner, Jaouad, was increadible.</p><br>
+            <a href="">Tru Vio</a>
             <p>Happy Treloo</p>
             <img src="./img/Ellipse3.jpg" alt="">
             <p><img src="./img/Star.png" alt="">4.9</p>
@@ -163,19 +185,17 @@
             
 </body>
 <footer>
-    <div>
     <h2>Don’t Miss The 50% Discount if You register Today</h2>
     <button>Register Today</button>
     <img src="./img/unsplash_Q1p7bh3SHj8.jpg" alt="">
-    </div>
     <p>© 2022 Treloo LLC - All right reserved.</p>
-    <div>
+    <nav>
         <ul>
             <li><a href="">Review</a></li>
             <li><a href="">Tips</a></li>
             <li><a href="">Alerts</a></li>
             <li><a href="">Blog</a></li>
         </ul>
-    </div>
+    </nav>
 </footer>
 </html>
